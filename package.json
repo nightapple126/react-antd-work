@@ -1,0 +1,77 @@
+{
+  "name": "react-ant-demo",
+  "version": "0.1.0",
+  "private": false,
+  "license": "MIT",
+  "author": "Tien Duy",
+  "description": "Demo using ant-design in React",
+  "keywords": [
+    "react",
+    "react-demo",
+    "react-antd",
+    "react-ant-design",
+    "react-boilerplate"
+  ],
+
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "lint": "eslint --fix --ext js,jsx,ts,tsx src/",
+    "prettier": "prettier --write \"src/**/(*.tsx|*.ts|*.jsx|*.js|*.scss|*.css)\""
+  },
+  "dependencies": {
+    "@ant-design/icons": "4.5.0",
+    "@iconify/icons-mdi": "1.1.12",
+    "@iconify/react": "1.1.4",
+    "antd": "4.13.1",
+    "google-map-react": "2.1.9",
+    "node-sass": "5.0.0",
+    "react": "17.0.1",
+    "react-dom": "17.0.1",
+    "react-helmet-async": "1.0.9",
+    "react-redux": "7.2.2",
+    "react-router-dom": "5.2.0",
+    "react-scripts": "4.0.3",
+    "redux-thunk": "2.3.0",
+    "styled-components": "5.2.1",
+    "web-vitals": "1.1.0"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "5.11.9",
+    "@testing-library/react": "11.2.5",
+    "@testing-library/user-event": "12.8.1",
+    "@types/antd": "1.0.0",
+    "@types/jest": "26.0.20",
+    "@types/node": "14.14.32",
+    "@types/react": "17.0.3",
+    "@types/react-dom": "17.0.1",
+    "@types/react-redux": "7.1.16",
+    "@types/react-router-dom": "5.1.7",
+    "@types/redux": "3.6.0",
+    "@types/redux-thunk": "2.1.0",
+    "eslint-config-prettier": "8.1.0",
+    "eslint-plugin-prettier": "3.3.1",
+    "prettier": "2.2.1",
+    "typescript": "4.2.3"
+  }
+}
